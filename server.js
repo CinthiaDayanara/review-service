@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const reviewRoutes = require('./routes/reviewRoutes');
 const app = express();
-const port = 3000;
+const port = 3013;
 
 // Conectar a MongoDB
 mongoose.connect('mongodb://localhost:27017/review_db', {
